@@ -474,18 +474,18 @@ def test():
     if calc is not None and int(calc.value) == 157300:
         print ("PASSED: Calculator passed")
     else:
-        print "ERROR: Calculator failed!"
+        print ("ERROR: Calculator failed!")
         
     euros = Google.convert_currency(5.0, "USD", "EUR")
     if euros is not None and euros > 0.0:
-        print "PASSED: Currency convert passed"
+        print ("PASSED: Currency convert passed")
     else:
-        print "ERROR: Currency convert failed!"
+        print ("ERROR: Currency convert failed!")
         
 def main():
     if len(sys.argv) > 1 and sys.argv[1] == "--debug":
         Google.DEBUG_MODE = True
-        print "DEBUG_MODE ENABLED"
+        print ("DEBUG_MODE ENABLED")
     test()
         
 if __name__ == "__main__":
