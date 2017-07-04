@@ -445,7 +445,7 @@ class NavigableString(unicode, PageElement):
         if attr == 'string':
             return self
         else:
-            print("'%s' object has no attribute '%s'", % (self.__class__.__name__, attr))
+            print("'%s' object has no attribute '%s'", (self.__class__.__name__, attr))
             raise AttributeError
 
     def __unicode__(self):
