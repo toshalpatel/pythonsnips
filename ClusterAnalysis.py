@@ -1,7 +1,6 @@
 # CLUSTER ANALYSIS 
 
 # Set the working directory 
-%cd C:\Users\INS
 
 # Import the required libraries 
 from sklearn import cluster
