@@ -34,7 +34,7 @@ for tweet in iterator:
     print json.dumps(tweet)  
     
     # The command below will do pretty printing for JSON data, try it out
-    # print json.dumps(tweet, indent=4)
+    # print(json.dumps(tweet, indent=4))
        
     if tweet_count <= 0:
         break 
